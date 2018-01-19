@@ -1,0 +1,253 @@
+/*
+ * styles.css
+ * Description: A CSS file for replicating Wikipedia's look
+ * Author: Simon Lovell Bart
+ * Version: 1.1
+ * This code is free to use and redistribute.
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  display: list item;
+  margin-bottom: 0.1em;
+}
+
+span {
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  overflow: hidden;
+  color: #000;
+  margin: 0;
+  border-bottom: 1px solid #a2a9b1;
+  background: none;
+  padding-top: 0.5em;
+  padding-bottom: 0.17em;
+  font-weight: normal;
+}
+
+h3, h4, h5, h6 {
+  border-bottom: 0;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 1em;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+#mw-page-base {
+  height: 5em;
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(#ffffff 50%, #f6f6f6 100%);
+  background-color: #ffffff;
+}
+
+#mw-panel {
+  position: absolute;
+  font-size: inherit;
+  top: 0;
+  left: 0;
+  width: 10em;
+}
+
+.mw-body {
+  margin-left: 10em;
+  margin-top: -1px;
+  border: 1px solid #a7d7f9;
+  border-right-width: 0px;
+  background-color: #ffffff;
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.mw-body h1 {
+  overflow: visible;
+  margin-bottom: 0.25em;
+  border-bottom: 1px solid #a2a9b1;
+  line-height: 1.3;
+  font-size: 1.8em;
+}
+
+.mw-body-content {
+  font-size: 0.875em;
+  line-height: 1.3;
+}
+
+.mw-body-content h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
+
+.mw-body-content h3 {
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.6;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.toc {
+  display: table;
+  zoom: 1;
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 7px;
+  text-align: center;
+  line-height: 1.6;
+  font-family: sans-serif;
+  font-size: 95%
+}
+
+.toc h2 {
+  display: inline;
+  border: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.toctitle {
+  margin: none;
+  display: inline;
+}
+
+.toc ul {
+  margin-left: 0;
+  margin: 0.3em 0;
+  border: none;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
+  list-style-image: none;
+  text-decoration: none;
+}
+
+.toc ul ul {
+  margin: 0 0 0 2em;
+}
+
+.tocnumber {
+  padding-left: 0;
+  padding-right: 0.5em;
+  color: #222;
+}
+
+#mw-head {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+#left-navigation {
+  float: left;
+  margin-left: 10em;
+  margin-top: 2.5em;
+  margin-bottom: -2.5em;
+  display: inline;
+}
+
+div.vectorTabs {
+  float: left;
+  height: 2.5em;
+  background-image:
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AWVOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+tOxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg==);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  padding-left: 1px;
+}
+
+div.vectorTabs ul {
+  list-style-type: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image:
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AWVOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+tOxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg==);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+div.vectorTabs ul li {
+  float: left;
+  line-height: 1.125em;
+  display: inline-block;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image:
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkCAIAAADITs03AAAAO0lEQVR4AeSKhREAMQzDdN5/5uixuEKDpqgBjl2f78wd2DVj1+26/h///PfteVMN7zoGebcg1/Y/ZQQAlAUtQCujIJMAAAAASUVORK5CYII=);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  white-space: nowrap;
+}
+
+div.vectorTabs ul > li {
+  display: block;
+}
+
+div.vectorTabs li {
+  
+}
+
+div.vectorTabs li.selected {
+  background-image:
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeRKBAAAAAElFTkSuQmCC);
+}
+
+div.vectorTabs span {
+  display: inline-block;
+  background-image:
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AWVOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+tOxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg==);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+div.vectorTabs span a {
+  display: inline-block;
+  padding-top: 1.125em;
+}
+
+div.vectorTabs li a {
+  padding-left: 0.625em;
+  padding-right: 0.625em;
+}
+
+div.vectorTabs li.selected a {
+  color: #222;
+  text-decoration: none;
+}
+
+#p-logo {
+  width: 10em;
+  height: 160px;
+}
+
+#p-logo a {
+  display: block;
+  width: 10em;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-decoration: none;
+}
+
+.mw-wiki-logo {
+  background-image: url(https://en.wikipedia.org/static/images/project-logos/enwiki.png)
+}
